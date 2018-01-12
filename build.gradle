@@ -45,17 +45,17 @@ dependencies {
 	compile('com.alibaba:fastjson:1.2.33')
   	compile "org.apache.httpcomponents:httpclient:4.5.3"
 
-    compile ("commons-io:commons-io:2.5")
-    compile ('commons-lang:commons-lang:2.6')
-    compile files('lib/lombok-1.16.18.jar')
+	compile ("commons-io:commons-io:2.5")
+	compile ('commons-lang:commons-lang:2.6')
+	compile files('lib/lombok-1.16.18.jar')
     
-    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     
 }
 
 jar {
-    manifest.attributes provider: '泡面和尚<jie_hoang@outlook.com>'
-    manifest.attributes version: "${version}"
-    manifest.attributes build_jdk: "${targetCompatibility}"
+	manifest.attributes provider: '泡面和尚<jie_hoang@outlook.com>'
+	manifest.attributes version: "${version}"
+	manifest.attributes build_jdk: "${targetCompatibility}"
 }
 
