@@ -1,2 +1,5 @@
-# otc-admin
-OTC中心化管理平台
+# wkc-admin
+玩客云中心化管理平台
+
+
+

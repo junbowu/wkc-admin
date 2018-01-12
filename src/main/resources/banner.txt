@@ -1,0 +1,9 @@
+${AnsiColor.BRIGHT_GREEN}
+=========================================
+
+                   玩客云中心化管理平台
+
+=========================================
+${AnsiColor.BRIGHT_RED}
+Application Version: ${application.version}${application.formatted-version}
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
